@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+   
+    height: 10vh;
+    display:flex;
+    width: 80%;
+     margin:auto;/* margin auto solves the issue of the width and places it at thecenter */
+    align-items: center;
+}
+.logo,ul,.carticon{
+    display: flex;
+
+}
+.logo{
+   
+    flex: 4;
+}
+nav{
+    
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.a-links{
+    color:lightslategrey;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.carticon{
+    font-size: 20px;
+flex: 1;
+justify-content: flex-end ;
+}
+section{
+    display: flex;
+    width: 80%;
+    margin:auto;
+min-height:80vh; 
+align-items: center;
+}
+.leftSection{
+
+    flex:1;
+}
+.text h1{
+    font-size: 44px;
+    font-weight: 400;
+    
+}
+.text p{
+    font-size: 20px;
+    margin-top: 5px;
+    color:grey;
+}
+.button{
+    padding: 30px 0px 0px 0px;
+}
+.button .visit {
+    background: none;
+    border: 2px solid #4D8EEF;
+    color:#4D8EEF;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 20px 0px 20px 0px;
+}
+.button .shops{
+    background: #4D8EEF;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 20px 0px 20px 0px;
+    border: 2px solid #4D8EEF;
+}
+.rightSection{
+    flex:1;
+}
+.rightSection img{
+    height:60vh;
+}
