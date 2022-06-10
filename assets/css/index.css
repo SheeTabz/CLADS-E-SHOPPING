@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Poppins", sans-serif;
+
+    background:#FBE9F4 ;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Arapey', serif;
 }
 header{
    
@@ -31,9 +35,16 @@ nav{
     list-style: none;
 }
 .a-links{
-    color:lightslategrey;
+    color:#855A6D;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+.a-links:hover{
+    background:#613643;
+    color: #fff;
+    padding:10px;
+    border-radius: 6px;
 }
 
 
@@ -50,45 +61,53 @@ min-height:80vh;
 align-items: center;
 }
 .leftSection{
-
+    
     flex:1;
 }
 .text h1{
+    margin-bottom: 10px;
     font-size: 44px;
-    font-weight: 400;
+    font-weight: 800;
+    color: #613643;
     
 }
 .text p{
     font-size: 20px;
-    margin-top: 5px;
-    color:grey;
+    color:#855A6D;
+    
 }
 .button{
-    padding: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 30px;
 }
 .button .visit {
     background: none;
-    border: 2px solid #4D8EEF;
-    color:#4D8EEF;
+    border: 2px solid #855A6D;
+    color:#613643;
     width: 80px;
     height: 40px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 20px 0px 20px 0px;
 }
 .button .shops{
-    background: #4D8EEF;
+    background:#613643;
     color: #fff;
     width: 80px;
     height: 40px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 20px 0px 20px 0px;
-    border: 2px solid #4D8EEF;
+    border: 2px solid #855A6D;
 }
 .rightSection{
     flex:1;
 }
-.rightSection img{
-    height:60vh;
+.bg{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    right: 400px;
 }
+/* .rightSection img{
+    height:50vh;
+} */
